@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    padding: 30px 115px ;
+    background-color: rgb(134, 134, 134);
+}
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#hero{
+    background-position: center;
+    background-size: cover;
+    padding: 330px 0px;
+    background-image: url(../images/bg-image.png);
+    background-repeat: no-repeat;
+}
+.choose{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+.choose h1{
+    color: white;
+}
+.choose p{
+    color: white;
+}
+.cards-1{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.card-1{
+    border-radius: 12px ;
+    border:gray groove;
+    width: 300px;
+}
+.card-1 p{
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    padding-left: 40px;
+}
+.card-1 h4{
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+.card-1 img{
+    border-radius: 12px;
+    width: 100%;
+}
+.days-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.popular{
+    background-color: rgb(244, 216, 195);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.popular button{
+    background-color: #EB662B;
+    padding: 21px 160px;
+}
+#hero-2{
+    margin-top: 110px;
+}
+.there{
+    padding-left: 100px;
+    width: 350px;
+}
+.kartochka{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 500px;
+}
+.cards-2{
+    padding-left: 50px;
+    display: flex;
+    gap: 30px;
+}
